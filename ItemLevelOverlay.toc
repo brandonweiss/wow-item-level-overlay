@@ -1,0 +1,11 @@
+## Interface: 50400
+## Title: Item Level Overlay
+## Version: 0.1.0
+## Notes: Displays your item levels overlayed on inventory slots in Character Info
+## Author: Brandon Weiss
+## X-Website: https://github.com/brandonweiss/item_level_overlay
+
+libs\LibStub\LibStub.lua
+libs\LibItemUpgradeInfo-1.0\LibItemUpgradeInfo-1.0.xml
+
+ItemLevelOverlay.lua
