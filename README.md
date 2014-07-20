@@ -2,6 +2,8 @@
 
 A very small World of Warcraft addon that overlays individual item levels over inventory slots in Character Info.
 
+![Item Level Overlay](https://dl.dropboxusercontent.com/u/3132965/item-level-overlay.png)
+
 ## Installation
 
 Download the [latest release](https://github.com/brandonweiss/wow-item-level-overlay/releases), unzip it, and drop it into your `Interface/AddOns` directory.
