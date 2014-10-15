@@ -1,4 +1,4 @@
-## Interface: 50400
+## Interface: 60000
 ## Title: Item Level Overlay
 ## Version: 0.1.0
 ## Notes: Displays your item levels overlaid on inventory slots in Character Info
