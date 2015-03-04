@@ -24,7 +24,9 @@ local inventoryItemOverlayCache = {}
 local function getInventoryItemLevelFromInventorySlotName(inventorySlotName)
   local inventorySlotNumber = select(1, GetInventorySlotInfo(inventorySlotName))
   local inventoryItemLink   = GetInventoryItemLink("player", inventorySlotNumber)
-  return ItemUpgradeInfo:GetUpgradedItemLevel(inventoryItemLink)
+  if inventoryItemLink then
+    return ItemUpgradeInfo:GetUpgradedItemLevel(inventoryItemLink)
+  end
 end
 
 local function updateItemOverlay(overlayFrame, inventorySlotName, itemLevel)
@@ -46,9 +48,7 @@ local function updateItemOverlays(overlayFrame)
   for index, inventorySlotName in ipairs(inventorySlotNames) do
     local itemLevel = getInventoryItemLevelFromInventorySlotName(inventorySlotName)
 
-    if itemLevel then
-      updateItemOverlay(overlayFrame, inventorySlotName, itemLevel)
-    end
+    updateItemOverlay(overlayFrame, inventorySlotName, itemLevel)
   end
 end
 
