@@ -1,0 +1,16 @@
+tag v1.0.9
+f230686b08fec6602f6eaaa42f0fc586f4f6781d
+Kevin Ballard <kevin@sb.org>
+2014-12-20 01:01:12 -0800
+
+Tagging as v1.0.9
+
+
+--------------------
+
+Kevin Ballard:
+	- Use ITEM_LEVEL to try and be localization-agnostic
+	When scanning heirlooms, use the ITEM_LEVEL constant as the basis for
+	our pattern. We're making the assumption that it has a single "%d"
+	token.
+	- Fix error when trying to scan Satchel of Savage Mysteries
