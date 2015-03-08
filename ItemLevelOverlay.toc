@@ -1,6 +1,6 @@
 ## Interface: 60100
 ## Title: Item Level Overlay
-## Version: 0.3.0
+## Version: 0.3.1
 ## Notes: Displays your item levels overlaid on inventory slots in Character Info
 ## Author: Brandon Weiss
 ## X-Website: https://github.com/brandonweiss/wow-item-level-overlay
